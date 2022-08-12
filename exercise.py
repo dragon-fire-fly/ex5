@@ -95,5 +95,5 @@ fib_list = [0,1]
 for number in range(0,51):
     new_number = fib_list[-2] + fib_list[-1]
     fib_list.append(new_number)
-print(fib_list)
+    print(fib_list[number])
 
